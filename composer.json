@@ -1,0 +1,24 @@
+{
+  "name": "jingling0101/xcx",
+  "description": "A WeChat applet (小程序) plugins for Laravel 5.*",
+  "license": "MIT",
+  "keywords": [
+    "wx"
+  ],
+  "authors": [
+    {
+      "name": "lewis",
+      "email": "621019457@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "JLWx\\Xcx\\": "src/"
+    }
+  }
+}
